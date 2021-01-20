@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form #form="ngForm" (ngSubmit)="loginUser(form)">
+    <div>
+      <ion-item>
+        <ion-input name="email" type="email" placeholder="your@email.com" ngModel required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input name="password" type="password" placeholder="password" ngModel required></ion-input>
+      </ion-item>
+    </div>
+    <div style="text-align: center;margin: auto;">
+      <ion-button type="submit" [disabled]="form.invalid">Sign In</ion-button>
+    </div>
+  </form>
+  <div style="text-align: center;margin: auto;">
+    <h6 (click)="goToReset()">Forget Password</h6>
+    <h6 (click)="goToSignUp()">sign Up</h6>
+  </div>
+</ion-content>
