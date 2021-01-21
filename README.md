@@ -5,14 +5,22 @@ Ionic Angular FirebaseLogin
 Ionic Angular FirebaseLogin
 
 
-toDo list:
+requirements:
+
 1-Install Node.js
+
 2-Install Ionic & Cordova
+
 3-Install VS Code
-4-Open VS code and select project folder
-5-install firebase with npm -install firebase --save 
-6-To generate auth - type ionic g service services/auth
-7-To run on browser type "ionic serve" on terminal
+
+4-Open VS code and select project folder after you unzip the folder
+
+5-Go to view and select terminal
+
+6-if it asks you to install @angular/cli? type "y" and install it.
+
+7-After installation, ionic app will open in the browser.
+
 
 ![Login](https://user-images.githubusercontent.com/29862339/105234384-3e0c5500-5b7c-11eb-815a-b82af2315580.PNG) 
 ![signUp](https://user-images.githubusercontent.com/29862339/105234394-3fd61880-5b7c-11eb-9815-f3d7529a4c02.PNG)
